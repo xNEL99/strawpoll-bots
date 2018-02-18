@@ -1,4 +1,4 @@
-import botPoll from '../index';
+import botPoll from '../src/index';
 import { join } from 'path';
 
 // True for protection (ip duplication checking) (proxies/socks required)
