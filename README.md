@@ -19,7 +19,7 @@ A npm package for botting polls on strawpoll.me
 ## Usage
 #### IP Limitation Checking Example
 ```javascript
-const botPoll = require('strawpoll-bots');
+const botPoll = require('strawpoll-bots').default;
 const { join } = require('path');
 
 // Args: (url, optionID, protection, socksFilePath, amount)
@@ -27,7 +27,7 @@ botPoll('http://www.strawpoll.me/15100511', 1, true, join(__dirname, 'socks.txt'
 ```
 #### No Limitation Checking Example
 ```javascript
-const botPoll = require('strawpoll-bots');
+const botPoll = require('strawpoll-bots').default;
 
 // Args: (url, optionID, protection, socksFilePath, amount)
 botPoll('http://www.strawpoll.me/15100521', 1, false, null, 5000)
