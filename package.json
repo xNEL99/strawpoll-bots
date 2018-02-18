@@ -1,7 +1,7 @@
 {
   "name": "strawpoll-bots",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A npm package for botting polls on strawpoll.me",
   "main": "build/index.js",
   "scripts": {
