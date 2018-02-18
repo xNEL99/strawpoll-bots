@@ -9,6 +9,10 @@
     "test:p": "node build/test/protection-example.js",
     "test:n": "node build/test/no-protection-example.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xNEL99/strawpoll-bots"
+  },
   "keywords": [
     "strawpoll",
     "strawpoll.me",
